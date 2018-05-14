@@ -7,16 +7,24 @@
 //
 
 import UIKit
+import Firebase
 import CoreData
+
+enum Keys: String {
+	case uuid = "uuid"
+	case textColor = "text"
+	case backgroundColor = "background"
+	case imageURLs = "images"
+	case username = "username"
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
 
-
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-		// Override point for customization after application launch.
+		FirebaseApp.configure()
 		return true
 	}
 

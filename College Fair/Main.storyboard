@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9OL-LE-Bc7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Entry View Controller-->
+        <scene sceneID="BlA-L8-wqy">
+            <objects>
+                <viewController id="9OL-LE-Bc7" customClass="EntryViewController" customModule="College_Fair" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OnH-xT-0Xe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading College Fair..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuZ-OQ-WGE">
+                                <rect key="frame" x="59" y="328" width="257" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="nMr-uI-qLk">
+                                <rect key="frame" x="169" y="360" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xuZ-OQ-WGE" firstAttribute="centerX" secondItem="jTi-np-eOw" secondAttribute="centerX" id="NNr-1o-YAz"/>
+                            <constraint firstItem="xuZ-OQ-WGE" firstAttribute="centerY" secondItem="jTi-np-eOw" secondAttribute="centerY" id="b8U-BJ-coh"/>
+                            <constraint firstItem="nMr-uI-qLk" firstAttribute="top" secondItem="xuZ-OQ-WGE" secondAttribute="bottom" constant="-0.5" id="c0R-U6-S9U"/>
+                            <constraint firstItem="nMr-uI-qLk" firstAttribute="centerX" secondItem="xuZ-OQ-WGE" secondAttribute="centerX" id="l8S-Up-ad3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jTi-np-eOw"/>
+                    </view>
+                    <connections>
+                        <segue destination="J0V-iX-LaV" kind="presentation" identifier="studentView" modalTransitionStyle="crossDissolve" id="TDq-Kj-mpS"/>
+                        <segue destination="dUB-At-ozX" kind="presentation" identifier="collegeView" modalTransitionStyle="crossDissolve" id="HSf-g7-hJk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GYt-dP-5n8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28" y="188"/>
+        </scene>
+        <!--StudentPerspective-->
+        <scene sceneID="Uh0-Pd-qK5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="StudentPerspective" id="J0V-iX-LaV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lie-25-cyX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="803" y="13"/>
+        </scene>
+        <!--CollegePerspective-->
+        <scene sceneID="Yeq-mY-QnG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CollegePerspective" id="dUB-At-ozX" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oKK-e9-3UM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="799" y="333"/>
+        </scene>
+    </scenes>
+</document>

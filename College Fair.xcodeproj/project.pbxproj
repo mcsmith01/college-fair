@@ -7,14 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42E021EF9560BF85AEBC9420 /* Pods_College_Fair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30534D6D2257F4F4F618DE9D /* Pods_College_Fair.framework */; };
+		8F28DC1120A2F1E4003C906E /* ColorSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC48DD020221E3A00C0B80F /* ColorSelectionViewController.swift */; };
+		8F3548EA20249F1C007E0308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5146E72024789F0053E1C4 /* Main.storyboard */; };
+		8F3548EB2024A005007E0308 /* CollegePerspective.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1DF0B01F6B0C3700BE3F79 /* CollegePerspective.storyboard */; };
+		8F3548EC2024A00A007E0308 /* StudentPerspective.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA265631EC267D9005FC19E /* StudentPerspective.storyboard */; };
+		8F5146E82024789F0053E1C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5146E72024789F0053E1C4 /* Main.storyboard */; };
+		8F53C0C1203127BC004C72C5 /* UpdatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F53C0C0203127BC004C72C5 /* UpdatingView.xib */; };
+		8F53C0C220312851004C72C5 /* UpdatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F53C0C0203127BC004C72C5 /* UpdatingView.xib */; };
+		8F53C0C42031289C004C72C5 /* UpdatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F53C0C32031289C004C72C5 /* UpdatingView.swift */; };
+		8F53C0C52031DB10004C72C5 /* UpdatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F53C0C32031289C004C72C5 /* UpdatingView.swift */; };
+		8F53C0C720361279004C72C5 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F53C0C620361279004C72C5 /* Buttons.swift */; };
+		8F53C0C820362371004C72C5 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F53C0C620361279004C72C5 /* Buttons.swift */; };
 		8FA265601EC267D9005FC19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2655F1EC267D9005FC19E /* AppDelegate.swift */; };
-		8FA265621EC267D9005FC19E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265611EC267D9005FC19E /* ViewController.swift */; };
-		8FA265651EC267D9005FC19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA265631EC267D9005FC19E /* Main.storyboard */; };
+		8FA265621EC267D9005FC19E /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265611EC267D9005FC19E /* EntryViewController.swift */; };
 		8FA265681EC267D9005FC19E /* College_Fair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265661EC267D9005FC19E /* College_Fair.xcdatamodeld */; };
 		8FA2656A1EC267D9005FC19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA265691EC267D9005FC19E /* Assets.xcassets */; };
 		8FA2656D1EC267D9005FC19E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2656B1EC267D9005FC19E /* LaunchScreen.storyboard */; };
 		8FA265781EC267D9005FC19E /* College_FairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265771EC267D9005FC19E /* College_FairTests.swift */; };
 		8FA265831EC267D9005FC19E /* College_FairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265821EC267D9005FC19E /* College_FairUITests.swift */; };
+		8FA265911EC269A4005FC19E /* StudentMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265901EC269A4005FC19E /* StudentMainViewController.swift */; };
+		8FA265A81EC6A2FF005FC19E /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265A71EC6A2FF005FC19E /* Encryption.swift */; };
+		8FB4F69D202CB2C00043D13C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FB4F69C202CB2C00043D13C /* GoogleService-Info.plist */; };
+		8FB4F69E202CB2E70043D13C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FB4F69C202CB2C00043D13C /* GoogleService-Info.plist */; };
+		8FB4F69F202CB7E30043D13C /* StudentPerspective.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA265631EC267D9005FC19E /* StudentPerspective.storyboard */; };
+		8FB4F6A1202E068E0043D13C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4F6A0202E068D0043D13C /* DataModel.swift */; };
+		8FB4F6A2202E06B70043D13C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB4F6A0202E068D0043D13C /* DataModel.swift */; };
+		8FC48D9C201FB7CF00C0B80F /* CollegeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265961EC2906D005FC19E /* CollegeMainViewController.swift */; };
+		8FC48D9D201FB7CF00C0B80F /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265611EC267D9005FC19E /* EntryViewController.swift */; };
+		8FC48DA2201FB7CF00C0B80F /* EditableTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD83DC1EC8A7BB00DAA4E3 /* EditableTableCell.swift */; };
+		8FC48DA3201FB7CF00C0B80F /* College_Fair.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265661EC267D9005FC19E /* College_Fair.xcdatamodeld */; };
+		8FC48DA4201FB7CF00C0B80F /* CollegeEditInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2659D1EC37430005FC19E /* CollegeEditInfoViewController.swift */; };
+		8FC48DA5201FB7CF00C0B80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2655F1EC267D9005FC19E /* AppDelegate.swift */; };
+		8FC48DA7201FB7CF00C0B80F /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265A71EC6A2FF005FC19E /* Encryption.swift */; };
+		8FC48DAE201FB7CF00C0B80F /* CollegePerspective.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1DF0B01F6B0C3700BE3F79 /* CollegePerspective.storyboard */; };
+		8FC48DAF201FB7CF00C0B80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2656B1EC267D9005FC19E /* LaunchScreen.storyboard */; };
+		8FC48DB0201FB7CF00C0B80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA265691EC267D9005FC19E /* Assets.xcassets */; };
+		8FC48DBE2020056400C0B80F /* CollegeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC48DBD2020056400C0B80F /* CollegeInfoViewController.swift */; };
+		8FC48DC620200C7600C0B80F /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA265981EC29AF3005FC19E /* QRScanViewController.swift */; };
+		8FC48DC720200E3300C0B80F /* CollegePresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC48DBF2020059400C0B80F /* CollegePresentationViewController.swift */; };
+		8FC48DCA2020E28A00C0B80F /* CollegesInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC48DC82020E22900C0B80F /* CollegesInfoViewController.swift */; };
+		8FC48DCD20215CEC00C0B80F /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC48DCB20210A0500C0B80F /* ImageCollectionViewCell.swift */; };
+		8FC48DD320221E6600C0B80F /* ColorSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC48DD020221E3A00C0B80F /* ColorSelectionViewController.swift */; };
+		8FFD83DD1EC8A7BB00DAA4E3 /* EditableTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD83DC1EC8A7BB00DAA4E3 /* EditableTableCell.swift */; };
+		8FFD83DF1EC8A89500DAA4E3 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD83DE1EC8A89500DAA4E3 /* NotesView.swift */; };
+		8FFD83E11EC8AA4300DAA4E3 /* StudentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD83E01EC8AA4300DAA4E3 /* StudentInfoViewController.swift */; };
+		8FFEAC59203A3837003F5348 /* StudentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFEAC57203A353F003F5348 /* StudentListViewController.swift */; };
+		B5885F93B54F1FAA4080F9DA /* Pods_College_FairTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0E2DC70AA0A39CD2291496 /* Pods_College_FairTests.framework */; };
+		F612FBFA4F9F25F48A2F2378 /* Pods_College_FairUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC00600E24C929C813B7BE6 /* Pods_College_FairUITests.framework */; };
+		FB11EE0C2D22B17423E310BF /* Pods_College_Fair_College.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C4388E11624717A65D9429 /* Pods_College_Fair_College.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +75,46 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8FC48D96201E7F5A00C0B80F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC48DB3201FB7CF00C0B80F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2ABFE2D6E28051CD731F98BD /* Pods-College Fair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Fair.debug.xcconfig"; path = "Pods/Target Support Files/Pods-College Fair/Pods-College Fair.debug.xcconfig"; sourceTree = "<group>"; };
+		30534D6D2257F4F4F618DE9D /* Pods_College_Fair.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_Fair.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32285407D11B08E11E803061 /* Pods-College FairUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College FairUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-College FairUITests/Pods-College FairUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A36CD027C800FAA069DEE7E /* Pods-College FairUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College FairUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-College FairUITests/Pods-College FairUITests.release.xcconfig"; sourceTree = "<group>"; };
+		537F77D76334C37906CB511D /* Pods-College Fair College.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Fair College.release.xcconfig"; path = "Pods/Target Support Files/Pods-College Fair College/Pods-College Fair College.release.xcconfig"; sourceTree = "<group>"; };
+		5BC00600E24C929C813B7BE6 /* Pods_College_FairUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_FairUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B4940BD4C935CDB996E3D /* Pods-College FairTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College FairTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-College FairTests/Pods-College FairTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F1DF0B01F6B0C3700BE3F79 /* CollegePerspective.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollegePerspective.storyboard; sourceTree = "<group>"; };
+		8F5146E72024789F0053E1C4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8F53C0C0203127BC004C72C5 /* UpdatingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdatingView.xib; sourceTree = "<group>"; };
+		8F53C0C32031289C004C72C5 /* UpdatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatingView.swift; sourceTree = "<group>"; };
+		8F53C0C620361279004C72C5 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		8FA2655C1EC267D9005FC19E /* College Fair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Fair.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA2655F1EC267D9005FC19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FA265611EC267D9005FC19E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8FA265641EC267D9005FC19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FA265611EC267D9005FC19E /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		8FA265641EC267D9005FC19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StudentPerspective.storyboard; sourceTree = "<group>"; };
 		8FA265671EC267D9005FC19E /* College_Fair.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = College_Fair.xcdatamodel; sourceTree = "<group>"; };
 		8FA265691EC267D9005FC19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FA2656C1EC267D9005FC19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +125,29 @@
 		8FA2657E1EC267D9005FC19E /* College FairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "College FairUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA265821EC267D9005FC19E /* College_FairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_FairUITests.swift; sourceTree = "<group>"; };
 		8FA265841EC267D9005FC19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA265901EC269A4005FC19E /* StudentMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentMainViewController.swift; sourceTree = "<group>"; };
+		8FA265961EC2906D005FC19E /* CollegeMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeMainViewController.swift; sourceTree = "<group>"; };
+		8FA265981EC29AF3005FC19E /* QRScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScanViewController.swift; sourceTree = "<group>"; };
+		8FA2659D1EC37430005FC19E /* CollegeEditInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegeEditInfoViewController.swift; sourceTree = "<group>"; };
+		8FA265A71EC6A2FF005FC19E /* Encryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		8FB4F69C202CB2C00043D13C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8FB4F6A0202E068D0043D13C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8FC48DB9201FB7CF00C0B80F /* College Fair College.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Fair College.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC48DBA201FB7D400C0B80F /* College Fair copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "College Fair copy-Info.plist"; path = "/Users/smithcha/Google Drive/iOS/College Fair/College Fair copy-Info.plist"; sourceTree = "<absolute>"; };
+		8FC48DBD2020056400C0B80F /* CollegeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeInfoViewController.swift; sourceTree = "<group>"; };
+		8FC48DBF2020059400C0B80F /* CollegePresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegePresentationViewController.swift; sourceTree = "<group>"; };
+		8FC48DC82020E22900C0B80F /* CollegesInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollegesInfoViewController.swift; sourceTree = "<group>"; };
+		8FC48DCB20210A0500C0B80F /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		8FC48DD020221E3A00C0B80F /* ColorSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectionViewController.swift; sourceTree = "<group>"; };
+		8FFD83DC1EC8A7BB00DAA4E3 /* EditableTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableTableCell.swift; sourceTree = "<group>"; };
+		8FFD83DE1EC8A89500DAA4E3 /* NotesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		8FFD83E01EC8AA4300DAA4E3 /* StudentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentInfoViewController.swift; path = "College Fair/Student/StudentInfoViewController.swift"; sourceTree = SOURCE_ROOT; };
+		8FFEAC57203A353F003F5348 /* StudentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListViewController.swift; sourceTree = "<group>"; };
+		97B811598745A9BB55879E80 /* Pods-College FairTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College FairTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-College FairTests/Pods-College FairTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D83A919F269EEA7EBAD0AB4 /* Pods-College Fair College.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Fair College.debug.xcconfig"; path = "Pods/Target Support Files/Pods-College Fair College/Pods-College Fair College.debug.xcconfig"; sourceTree = "<group>"; };
+		9F0E2DC70AA0A39CD2291496 /* Pods_College_FairTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_FairTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C4388E11624717A65D9429 /* Pods_College_Fair_College.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_College_Fair_College.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D288570E370550FF99B8E0 /* Pods-College Fair.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-College Fair.release.xcconfig"; path = "Pods/Target Support Files/Pods-College Fair/Pods-College Fair.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E021EF9560BF85AEBC9420 /* Pods_College_Fair.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5885F93B54F1FAA4080F9DA /* Pods_College_FairTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +171,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F612FBFA4F9F25F48A2F2378 /* Pods_College_FairUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC48DA8201FB7CF00C0B80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB11EE0C2D22B17423E310BF /* Pods_College_Fair_College.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82475EF22C3C0FD0B7E5B6EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ABFE2D6E28051CD731F98BD /* Pods-College Fair.debug.xcconfig */,
+				F6D288570E370550FF99B8E0 /* Pods-College Fair.release.xcconfig */,
+				9D83A919F269EEA7EBAD0AB4 /* Pods-College Fair College.debug.xcconfig */,
+				537F77D76334C37906CB511D /* Pods-College Fair College.release.xcconfig */,
+				97B811598745A9BB55879E80 /* Pods-College FairTests.debug.xcconfig */,
+				8D5B4940BD4C935CDB996E3D /* Pods-College FairTests.release.xcconfig */,
+				32285407D11B08E11E803061 /* Pods-College FairUITests.debug.xcconfig */,
+				3A36CD027C800FAA069DEE7E /* Pods-College FairUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8FA265531EC267D9005FC19E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +208,9 @@
 				8FA265761EC267D9005FC19E /* College FairTests */,
 				8FA265811EC267D9005FC19E /* College FairUITests */,
 				8FA2655D1EC267D9005FC19E /* Products */,
+				8FA265A11EC61077005FC19E /* Frameworks */,
+				8FC48DBA201FB7D400C0B80F /* College Fair copy-Info.plist */,
+				82475EF22C3C0FD0B7E5B6EA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +220,7 @@
 				8FA2655C1EC267D9005FC19E /* College Fair.app */,
 				8FA265731EC267D9005FC19E /* College FairTests.xctest */,
 				8FA2657E1EC267D9005FC19E /* College FairUITests.xctest */,
+				8FC48DB9201FB7CF00C0B80F /* College Fair College.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,12 +228,21 @@
 		8FA2655E1EC267D9005FC19E /* College Fair */ = {
 			isa = PBXGroup;
 			children = (
+				8F5146E72024789F0053E1C4 /* Main.storyboard */,
 				8FA2655F1EC267D9005FC19E /* AppDelegate.swift */,
-				8FA265611EC267D9005FC19E /* ViewController.swift */,
-				8FA265631EC267D9005FC19E /* Main.storyboard */,
+				8FA265611EC267D9005FC19E /* EntryViewController.swift */,
+				8F53C0C620361279004C72C5 /* Buttons.swift */,
+				8FB4F6A0202E068D0043D13C /* DataModel.swift */,
+				8FA265A71EC6A2FF005FC19E /* Encryption.swift */,
+				8FFD83DC1EC8A7BB00DAA4E3 /* EditableTableCell.swift */,
+				8F53C0C0203127BC004C72C5 /* UpdatingView.xib */,
+				8F53C0C32031289C004C72C5 /* UpdatingView.swift */,
+				8FC48DC12020060400C0B80F /* Student */,
+				8FC48DC22020062E00C0B80F /* College */,
 				8FA265691EC267D9005FC19E /* Assets.xcassets */,
 				8FA2656B1EC267D9005FC19E /* LaunchScreen.storyboard */,
 				8FA2656E1EC267D9005FC19E /* Info.plist */,
+				8FB4F69C202CB2C00043D13C /* GoogleService-Info.plist */,
 				8FA265661EC267D9005FC19E /* College_Fair.xcdatamodeld */,
 			);
 			path = "College Fair";
@@ -128,6 +266,45 @@
 			path = "College FairUITests";
 			sourceTree = "<group>";
 		};
+		8FA265A11EC61077005FC19E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2C4388E11624717A65D9429 /* Pods_College_Fair_College.framework */,
+				9F0E2DC70AA0A39CD2291496 /* Pods_College_FairTests.framework */,
+				5BC00600E24C929C813B7BE6 /* Pods_College_FairUITests.framework */,
+				30534D6D2257F4F4F618DE9D /* Pods_College_Fair.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FC48DC12020060400C0B80F /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				8FA265631EC267D9005FC19E /* StudentPerspective.storyboard */,
+				8FA265901EC269A4005FC19E /* StudentMainViewController.swift */,
+				8FFD83E01EC8AA4300DAA4E3 /* StudentInfoViewController.swift */,
+				8FC48DBD2020056400C0B80F /* CollegeInfoViewController.swift */,
+				8FA265981EC29AF3005FC19E /* QRScanViewController.swift */,
+				8FFD83DE1EC8A89500DAA4E3 /* NotesView.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		8FC48DC22020062E00C0B80F /* College */ = {
+			isa = PBXGroup;
+			children = (
+				8F1DF0B01F6B0C3700BE3F79 /* CollegePerspective.storyboard */,
+				8FA265961EC2906D005FC19E /* CollegeMainViewController.swift */,
+				8FA2659D1EC37430005FC19E /* CollegeEditInfoViewController.swift */,
+				8FC48DBF2020059400C0B80F /* CollegePresentationViewController.swift */,
+				8FC48DC82020E22900C0B80F /* CollegesInfoViewController.swift */,
+				8FFEAC57203A353F003F5348 /* StudentListViewController.swift */,
+				8FC48DD020221E3A00C0B80F /* ColorSelectionViewController.swift */,
+				8FC48DCB20210A0500C0B80F /* ImageCollectionViewCell.swift */,
+			);
+			path = College;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +312,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FA265871EC267D9005FC19E /* Build configuration list for PBXNativeTarget "College Fair" */;
 			buildPhases = (
+				AD3B8A78627ED04A4D0248EC /* [CP] Check Pods Manifest.lock */,
 				8FA265581EC267D9005FC19E /* Sources */,
 				8FA265591EC267D9005FC19E /* Frameworks */,
 				8FA2655A1EC267D9005FC19E /* Resources */,
+				8FA265A41EC6109A005FC19E /* ShellScript */,
+				8FC48D96201E7F5A00C0B80F /* Embed Frameworks */,
+				D57BADA091C98766917D0946 /* [CP] Embed Pods Frameworks */,
+				36935EDFB8D83DEB040E1279 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +334,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FA2658A1EC267D9005FC19E /* Build configuration list for PBXNativeTarget "College FairTests" */;
 			buildPhases = (
+				C2F7E9D3EABD2BD490DB3544 /* [CP] Check Pods Manifest.lock */,
 				8FA2656F1EC267D9005FC19E /* Sources */,
 				8FA265701EC267D9005FC19E /* Frameworks */,
 				8FA265711EC267D9005FC19E /* Resources */,
@@ -170,6 +353,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FA2658D1EC267D9005FC19E /* Build configuration list for PBXNativeTarget "College FairUITests" */;
 			buildPhases = (
+				DD0A696BD9260FF3C8FF7E8F /* [CP] Check Pods Manifest.lock */,
 				8FA2657A1EC267D9005FC19E /* Sources */,
 				8FA2657B1EC267D9005FC19E /* Frameworks */,
 				8FA2657C1EC267D9005FC19E /* Resources */,
@@ -184,6 +368,28 @@
 			productReference = 8FA2657E1EC267D9005FC19E /* College FairUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		8FC48D9A201FB7CF00C0B80F /* College Fair College */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC48DB6201FB7CF00C0B80F /* Build configuration list for PBXNativeTarget "College Fair College" */;
+			buildPhases = (
+				0FD473706C45046F4B9EDB44 /* [CP] Check Pods Manifest.lock */,
+				8FC48D9B201FB7CF00C0B80F /* Sources */,
+				8FC48DA8201FB7CF00C0B80F /* Frameworks */,
+				8FC48DAD201FB7CF00C0B80F /* Resources */,
+				8FC48DB2201FB7CF00C0B80F /* ShellScript */,
+				8FC48DB3201FB7CF00C0B80F /* Embed Frameworks */,
+				A8FB2367C67A64E38C749E3C /* [CP] Embed Pods Frameworks */,
+				179F4DCA19C5015B614664F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "College Fair College";
+			productName = "College Fair";
+			productReference = 8FC48DB9201FB7CF00C0B80F /* College Fair College.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,25 +397,31 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "ls -applications";
 				TargetAttributes = {
 					8FA2655B1EC267D9005FC19E = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = ZE2X27WCWJ;
+						DevelopmentTeam = D7TRX2T2ZU;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					8FA265721EC267D9005FC19E = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = ZE2X27WCWJ;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8FA2655B1EC267D9005FC19E;
 					};
 					8FA2657D1EC267D9005FC19E = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = ZE2X27WCWJ;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8FA2655B1EC267D9005FC19E;
+					};
+					8FC48D9A201FB7CF00C0B80F = {
+						DevelopmentTeam = D7TRX2T2ZU;
 					};
 				};
 			};
@@ -229,6 +441,7 @@
 				8FA2655B1EC267D9005FC19E /* College Fair */,
 				8FA265721EC267D9005FC19E /* College FairTests */,
 				8FA2657D1EC267D9005FC19E /* College FairUITests */,
+				8FC48D9A201FB7CF00C0B80F /* College Fair College */,
 			);
 		};
 /* End PBXProject section */
@@ -238,9 +451,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5146E82024789F0053E1C4 /* Main.storyboard in Resources */,
+				8F3548EB2024A005007E0308 /* CollegePerspective.storyboard in Resources */,
+				8F3548EC2024A00A007E0308 /* StudentPerspective.storyboard in Resources */,
+				8F53C0C1203127BC004C72C5 /* UpdatingView.xib in Resources */,
 				8FA2656D1EC267D9005FC19E /* LaunchScreen.storyboard in Resources */,
 				8FA2656A1EC267D9005FC19E /* Assets.xcassets in Resources */,
-				8FA265651EC267D9005FC19E /* Main.storyboard in Resources */,
+				8FB4F69D202CB2C00043D13C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,16 +475,226 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FC48DAD201FB7CF00C0B80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3548EA20249F1C007E0308 /* Main.storyboard in Resources */,
+				8FC48DAE201FB7CF00C0B80F /* CollegePerspective.storyboard in Resources */,
+				8FB4F69F202CB7E30043D13C /* StudentPerspective.storyboard in Resources */,
+				8F53C0C220312851004C72C5 /* UpdatingView.xib in Resources */,
+				8FC48DAF201FB7CF00C0B80F /* LaunchScreen.storyboard in Resources */,
+				8FC48DB0201FB7CF00C0B80F /* Assets.xcassets in Resources */,
+				8FB4F69E202CB2E70043D13C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD473706C45046F4B9EDB44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-College Fair College-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		179F4DCA19C5015B614664F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-College Fair College/Pods-College Fair College-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-College Fair College/Pods-College Fair College-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36935EDFB8D83DEB040E1279 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-College Fair/Pods-College Fair-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-College Fair/Pods-College Fair-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA265A41EC6109A005FC19E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		8FC48DB2201FB7CF00C0B80F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		A8FB2367C67A64E38C749E3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-College Fair College/Pods-College Fair College-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-College Fair College/Pods-College Fair College-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3B8A78627ED04A4D0248EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-College Fair-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F7E9D3EABD2BD490DB3544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-College FairTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57BADA091C98766917D0946 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-College Fair/Pods-College Fair-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-College Fair/Pods-College Fair-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD0A696BD9260FF3C8FF7E8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-College FairUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FA265581EC267D9005FC19E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FA265621EC267D9005FC19E /* ViewController.swift in Sources */,
-				8FA265681EC267D9005FC19E /* College_Fair.xcdatamodeld in Sources */,
+				8FC48DBE2020056400C0B80F /* CollegeInfoViewController.swift in Sources */,
+				8F53C0C42031289C004C72C5 /* UpdatingView.swift in Sources */,
+				8F53C0C720361279004C72C5 /* Buttons.swift in Sources */,
+				8FA265911EC269A4005FC19E /* StudentMainViewController.swift in Sources */,
+				8FFD83E11EC8AA4300DAA4E3 /* StudentInfoViewController.swift in Sources */,
+				8FFD83DF1EC8A89500DAA4E3 /* NotesView.swift in Sources */,
+				8FC48DC620200C7600C0B80F /* QRScanViewController.swift in Sources */,
+				8FB4F6A1202E068E0043D13C /* DataModel.swift in Sources */,
+				8FA265621EC267D9005FC19E /* EntryViewController.swift in Sources */,
+				8FFD83DD1EC8A7BB00DAA4E3 /* EditableTableCell.swift in Sources */,
 				8FA265601EC267D9005FC19E /* AppDelegate.swift in Sources */,
+				8F28DC1120A2F1E4003C906E /* ColorSelectionViewController.swift in Sources */,
+				8FA265A81EC6A2FF005FC19E /* Encryption.swift in Sources */,
+				8FA265681EC267D9005FC19E /* College_Fair.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +714,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FC48D9B201FB7CF00C0B80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC48D9C201FB7CF00C0B80F /* CollegeMainViewController.swift in Sources */,
+				8FC48DCA2020E28A00C0B80F /* CollegesInfoViewController.swift in Sources */,
+				8FC48DC720200E3300C0B80F /* CollegePresentationViewController.swift in Sources */,
+				8FC48DA4201FB7CF00C0B80F /* CollegeEditInfoViewController.swift in Sources */,
+				8FFEAC59203A3837003F5348 /* StudentListViewController.swift in Sources */,
+				8FC48DCD20215CEC00C0B80F /* ImageCollectionViewCell.swift in Sources */,
+				8FC48DD320221E6600C0B80F /* ColorSelectionViewController.swift in Sources */,
+				8FC48D9D201FB7CF00C0B80F /* EntryViewController.swift in Sources */,
+				8FC48DA2201FB7CF00C0B80F /* EditableTableCell.swift in Sources */,
+				8FC48DA3201FB7CF00C0B80F /* College_Fair.xcdatamodeld in Sources */,
+				8FC48DA5201FB7CF00C0B80F /* AppDelegate.swift in Sources */,
+				8F53C0C820362371004C72C5 /* Buttons.swift in Sources */,
+				8F53C0C52031DB10004C72C5 /* UpdatingView.swift in Sources */,
+				8FC48DA7201FB7CF00C0B80F /* Encryption.swift in Sources */,
+				8FB4F6A2202E06B70043D13C /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -303,12 +752,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8FA265631EC267D9005FC19E /* Main.storyboard */ = {
+		8FA265631EC267D9005FC19E /* StudentPerspective.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8FA265641EC267D9005FC19E /* Base */,
 			);
-			name = Main.storyboard;
+			name = StudentPerspective.storyboard;
 			sourceTree = "<group>";
 		};
 		8FA2656B1EC267D9005FC19E /* LaunchScreen.storyboard */ = {
@@ -332,15 +781,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,15 +840,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -419,32 +884,41 @@
 		};
 		8FA265881EC267D9005FC19E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABFE2D6E28051CD731F98BD /* Pods-College Fair.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZE2X27WCWJ;
+				DEVELOPMENT_TEAM = D7TRX2T2ZU;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "College Fair/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lsapps.College-Fair";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		8FA265891EC267D9005FC19E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D288570E370550FF99B8E0 /* Pods-College Fair.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZE2X27WCWJ;
+				DEVELOPMENT_TEAM = D7TRX2T2ZU;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "College Fair/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lsapps.College-Fair";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		8FA2658B1EC267D9005FC19E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B811598745A9BB55879E80 /* Pods-College FairTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -453,13 +927,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lsapps.College-FairTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/College Fair.app/College Fair";
 			};
 			name = Debug;
 		};
 		8FA2658C1EC267D9005FC19E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5B4940BD4C935CDB996E3D /* Pods-College FairTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,13 +944,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lsapps.College-FairTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/College Fair.app/College Fair";
 			};
 			name = Release;
 		};
 		8FA2658E1EC267D9005FC19E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32285407D11B08E11E803061 /* Pods-College FairUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZE2X27WCWJ;
@@ -482,13 +960,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lsapps.College-FairUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "College Fair";
 			};
 			name = Debug;
 		};
 		8FA2658F1EC267D9005FC19E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A36CD027C800FAA069DEE7E /* Pods-College FairUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZE2X27WCWJ;
@@ -496,8 +976,47 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lsapps.College-FairUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = "College Fair";
+			};
+			name = Release;
+		};
+		8FC48DB7201FB7CF00C0B80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D83A919F269EEA7EBAD0AB4 /* Pods-College Fair College.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D7TRX2T2ZU;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "College Fair copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D COLLEGE";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lsapps.College-Fair";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8FC48DB8201FB7CF00C0B80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537F77D76334C37906CB511D /* Pods-College Fair College.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D7TRX2T2ZU;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "College Fair copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D COLLEGE";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lsapps.College-Fair";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -520,6 +1039,7 @@
 				8FA265891EC267D9005FC19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FA2658A1EC267D9005FC19E /* Build configuration list for PBXNativeTarget "College FairTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +1048,7 @@
 				8FA2658C1EC267D9005FC19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FA2658D1EC267D9005FC19E /* Build configuration list for PBXNativeTarget "College FairUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +1057,16 @@
 				8FA2658F1EC267D9005FC19E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC48DB6201FB7CF00C0B80F /* Build configuration list for PBXNativeTarget "College Fair College" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC48DB7201FB7CF00C0B80F /* Debug */,
+				8FC48DB8201FB7CF00C0B80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
